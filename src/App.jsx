@@ -1,12 +1,12 @@
-import Button from "@mui/material/Button";
+import GanttChart from "./components/chart/GanttChart";
+import { Button } from "@/components/ui/button";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1>App</h1>
-      <Button variant="contained">Hello world</Button>
-    </>
+    <main>
+      <Button>Click me</Button>
+      <GanttChart />
+    </main>
   );
-}
-
+};
 export default App;
